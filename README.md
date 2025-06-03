@@ -1,11 +1,8 @@
-Nesse projeto interdisciplinar do 3º semestre de Ciência da Computação, foram abordadas as disciplinas de Gerenciamento de Dados e Programação Orientada a Objetos para executar essas tarefas:
+Este projeto consiste no desenvolvimento de um sistema de gerenciamento de dados voltado para o universo Pokémon, criado como atividade interdisciplinar no 3º semestre do curso de Ciência da Computação. A proposta integrou as disciplinas de Gerenciamento de Dados e Programação Orientada a Objetos, com o objetivo de consolidar conhecimentos práticos em banco de dados relacional e boas práticas em Java.
 
-- Criar uma tabela principal para armazenar os pokémons de forma desorganizada (já incluídas no banco de dados manualmente, como primeiro passo).
-- Criar tabelas específicas de pokémons conforme seus tipos (elétrico, voador, fogo).
-- Alimentar essas tabelas conforme os dados incluídos na tabela principal.
-- Haver controle de inserção para evitar duplicações nas tabelas específicas.
-- Criar tabela totalizadora para registrar quamtos pokémons por tipo tem no banco.
-- Excluir duplicações da tabela principal e mover para a tabela própria (que seria uma tabela somente de duplicatas/deletados existentes na tabela principal).
-- Criar todas essas funções no Java, e fazendo a conexão com o banco de dados.
+A solução desenvolvida utiliza o MySQL Workbench para estruturar o banco e a linguagem Java para aplicar regras de negócio sobre os dados. Inicialmente, os pokémons são inseridos manualmente em uma tabela principal de forma desorganizada. A partir dela, o sistema realiza a separação automática dos registros em tabelas específicas por tipo (elétrico, voador e fogo), evitando duplicações com controles implementados no backend.
 
-  Todas essas atividades tinham o objetivo de melhorar a prática do conceito de banco de dados e programação orientada a objetos. E esse foi o projeto desenvolvido e entregue com sucesso ao professor.
+Além disso, o projeto contempla uma tabela totalizadora, responsável por contabilizar a quantidade de pokémons por tipo, e uma rotina de saneamento que identifica e move registros duplicados para uma tabela separada de "deletados", preservando a integridade e rastreabilidade dos dados.
+
+A aplicação tem como foco a aplicação de princípios de design orientado a objetos, modelagem relacional e integração entre backend e banco de dados, resultando em uma entrega funcional e aprovada academicamente. O projeto está concluído e reflete um exercício prático robusto sobre persistência de dados e lógica de negócios em Java conectada ao MySQL.
+
